@@ -1,0 +1,19 @@
+{
+    "work": [
+        {
+            "slug": "crowdriff",
+            "title": "CrowdRiff",
+            "description": "This is the CrowdRiff description"
+        },
+        {
+            "slug": "localhood",
+            "title": "Localhood",
+            "description": "This is the Localhood description"
+        },
+        {
+            "slug": "tabl",
+            "title": "Take Action for Black Lives",
+            "description": "This is the Take Action for Black Lives description"
+        }
+    ]
+}
