@@ -1,0 +1,29 @@
+.about {
+    position: sticky;
+    top: 20px;
+    width: 40%;
+    padding-bottom: 40px;
+
+    h1 {
+        position: relative;
+        font-size: 120px;
+        margin: 0;
+        padding-left: 70px;
+        letter-spacing: -5px;
+
+        &:before {
+            position: absolute;
+            content: "";
+            width: 60px;
+            height: 20px;
+            background: black;
+            left: 0;
+            top: 63px;
+        }
+    }
+
+    p {
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+}

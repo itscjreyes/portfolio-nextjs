@@ -1,10 +1,12 @@
 import work from '../work.json';
+import Header from '../../components/header/header.component';
 
 const Work = (props) => {
     const {title, description} = props.data[0];
 
     return (
         <>
+        <Header />
         <h1>{title}</h1>
         <p>{description}</p>
         </>

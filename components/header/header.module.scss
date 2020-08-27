@@ -1,0 +1,47 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+    a {
+        display: inline-block;
+        background: black;
+        color: white;
+        padding: 30px 10px 10px;
+        transition: all 0.2s ease;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        &:hover,
+        &:focus {
+            padding-top: 40px;
+            animation-name: colorChange;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+        }
+    }
+}
+
+@keyframes colorChange {
+    0% {
+      background: black;
+    }
+    25% {
+        background: #003459;
+    }
+    50% {
+        background: #003f88;
+    }
+    75% {
+        background: #003459;
+    }
+    100% {
+      background: black;
+    }
+}
+
+.container {
+    padding-top: 0;
+}

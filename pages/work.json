@@ -1,19 +1,25 @@
 {
     "work": [
         {
+            "slug": "tabl",
+            "title": "Take Action for Black Lives",
+            "descShort": "This is the Take Action for Black Lives description",
+            "tags": ["Design", "React", "Firebase"],
+            "url": "https://takeactionforblacklives.com"
+        },
+        {
             "slug": "crowdriff",
             "title": "CrowdRiff",
-            "description": "This is the CrowdRiff description"
+            "descShort": "This is the CrowdRiff description",
+            "tags": ["WordPress", "Sass", "Gulp"],
+            "url": "https://crowdriff.com"
         },
         {
             "slug": "localhood",
             "title": "Localhood",
-            "description": "This is the Localhood description"
-        },
-        {
-            "slug": "tabl",
-            "title": "Take Action for Black Lives",
-            "description": "This is the Take Action for Black Lives description"
+            "descShort": "This is the Localhood description",
+            "tags": ["React", "Sass", "API"],
+            "url": "https://localhood.com"
         }
     ]
 }

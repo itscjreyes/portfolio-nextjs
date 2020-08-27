@@ -1,30 +1,27 @@
 import Head from 'next/head';
-import Link from 'next/link';
-import work from './work.json';
+import Header from '../components/header/header.component';
+import About from '../components/about/about.component';
+import WorkList from '../components/work-list/work-list.component';
+import Contact from '../components/contact/contact.component';
+import Footer from '../components/footer/footer.component';
 
-export default function Home(props) {
-  const work = props.work.work;
-  
+export default function Home() {
   return (
     <div>
       <Head>
         <title>CJ Reyes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>CJ Reyes</h1>
-      {
-        work.map((work, i) => (
-          <Link href={`/work/${work.slug}`} key={i}><a>{work.title}</a></Link>
-        ))
-      }
+      <Header />
+      <div className="scroll-wrapper">
+        <div className="container">
+          <About />
+          <WorkList />
+        </div>
+      </div>
+      <Contact />
+      <Footer />
     </div>
   )
 }
 
-export const getStaticProps = () => {
-  return {
-    props: {
-      work
-    }
-  }
-}
