@@ -12,3 +12,16 @@
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .contact {
+        min-height: 400px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact {
+        margin-top: 0;
+    }
+}

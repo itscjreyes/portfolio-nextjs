@@ -33,3 +33,23 @@
 .btnGroup {
     margin-top: 40px;
 }
+
+@media screen and (max-width:767px) {
+    .workCard {
+        padding: 40px 20px;
+        border: 1px solid lightgrey;
+        margin: 20px 0;
+
+        &:hover {
+            box-shadow: none;
+
+            .contentWrapper {
+                transform: scale(1);
+            }
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+    }
+}
